@@ -4,7 +4,7 @@ require("dotenv").config();
 const token = process.env.TELEGRAM_BOT_TOKEN;
 
 // change this later to your deployed URL
-const WEB_APP_URL = "https://peppy-alfajores-beaf9e.netlify.app/";
+const WEB_APP_URL = "https://pawmatchn.netlify.app";
 
 if (!token) {
   console.error("❌ TELEGRAM_BOT_TOKEN is missing in .env");
